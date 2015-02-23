@@ -1,6 +1,8 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-###1. Read the activity labels into a table for activity_id to activity_label referencing 
+Assumption: Data files are already downloaded, unzipped and available at working directory including subdirectories
+
+###1. Read the activity_labels.txt into a table for activity_id to activity_label referencing 
 
 ###2. Clean test data set
 ####a. Subset mean and std col only (excludes mean freq cols)
