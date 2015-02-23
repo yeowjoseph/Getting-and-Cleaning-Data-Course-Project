@@ -1,4 +1,6 @@
 tidyData <- function () {
+  library(dplyr)
+
   ##read the activity labels into a table for activity_id to activity_label referencing 
   label <- read.table("./UCI HAR Dataset/activity_labels.txt")
   names(label)[1] <- "activity_id"
